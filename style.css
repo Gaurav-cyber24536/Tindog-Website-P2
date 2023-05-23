@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container-fluid {
+    padding: 3% 15%;
+}
+#title {
+    background-image: url(./images/header-img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.title-content {
+    text-align: left;
+}
+ h1 {
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight:600;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+h3 {
+ font-size: 2.5rem;
+ font-weight: bold;
+}
+.title-button {
+    margin: 0 2% ;
+    margin-bottom: 50px;
+}
+
+/*-------TITLE SECTION--------*/
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 2.5rem;
+    font-family: 'Nerko One', cursive;
+}
+.navbar {
+    padding:0 0 4.5rem;
+    
+}
+.nav-item {
+    padding: 0 18px;
+}
+.nav-link {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/*-------TITLE SECTION--------*/
+
+#features {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #fff;
+}
+
+#features h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+#features .icon {
+    color: #cfcfcf;
+    padding-bottom: 20px;
+} 
+#features .icon:hover {
+    color: #707070;
+    transition: 2sec;
+}
+
+/*-------testimonials--------*/
+
+#testimonials {
+    background-color: #e7e7e7;
+    text-align: center;
+}
+.testimonial-image {
+    width: 6%;
+    border-radius: 50px;
+    margin: 20px;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+#press {
+    background-color: #e7e7e7;
+    text-align: center;
+    padding-bottom: 4%;
+}
+.press-logo {
+    width: 18%;
+    padding: 40px 30px;
+}
+#pricing {
+    padding: 3% 15%;
+    text-align: center;
+}
+.pricing-header {
+    margin-bottom: 60px;
+}
+#cta {
+    text-align: center;
+    padding: 5% 15%;
+    background-color: #e7e7e7;
+}
+#cta button {
+    margin: 30px 8px ;
+}
+
+#footer {
+    text-align: center;
+    padding: 2% 0;
+    
+}
+
+
+
+
+
+@media (max-width:1028px) {
+
+    #title {
+    text-align: center;
+    background: none;
+    background-color: #a8a8a8;
+    }
+
+    #title h1 {
+        font-size: 2.5rem;
+    }
+
+    #testimonials h2 {
+        font-size: 2rem;
+    }
+    #press img {
+      display: inline-block;
+      width: 35%;
+     }
+
+    .pricing-header h2 {
+        font-size:2.5rem;
+        margin-top: 30px;
+    }
+    .pricing-header p {
+        margin-top: 20px;
+    }
+    
+    #cta h3 {
+        font-size: 2.5rem;
+    }
+
+}
